@@ -1,0 +1,253 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F886 ]
+[d frameptr 0 ]
+"505 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"32 D:\Archivos\Desktop\dataACqCharlaSoft\holaMundo1.X\main.c
+[v _configurarUsart configurarUsart `(v  1 e 1 0 ]
+"49
+[v _enviarCaracterTx enviarCaracterTx `(v  1 e 1 0 ]
+"55
+[v _enviarString enviarString `(v  1 e 1 0 ]
+"62
+[v _configADC configADC `(v  1 e 1 0 ]
+"84
+[v _main main `(v  1 e 1 0 ]
+[s S235 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"245 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f886.h
+[u S244 . 1 `S235 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES244  1 e 1 @6 ]
+[s S45 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"989
+[s S54 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S58 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S61 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[u S64 . 1 `S45 1 . 1 0 `S54 1 . 1 0 `S58 1 . 1 0 `S61 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES64  1 e 1 @24 ]
+"1054
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1159
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+[s S151 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1197
+[s S156 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S165 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S168 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[u S171 . 1 `S151 1 . 1 0 `S156 1 . 1 0 `S165 1 . 1 0 `S168 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES171  1 e 1 @31 ]
+[s S130 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"1354
+[u S139 . 1 `S130 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES139  1 e 1 @133 ]
+[s S214 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1416
+[u S223 . 1 `S214 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES223  1 e 1 @134 ]
+[s S22 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1478
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES31  1 e 1 @135 ]
+[s S89 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2424
+[s S98 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S102 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[u S105 . 1 `S89 1 . 1 0 `S98 1 . 1 0 `S102 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES105  1 e 1 @152 ]
+"2484
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2546
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @154 ]
+"2812
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+[s S197 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 VCFG0 1 0 :1:4 
+`uc 1 VCFG1 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"2833
+[u S203 . 1 `S197 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES203  1 e 1 @159 ]
+"3229
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3405
+[v _ADFM ADFM `VEb  1 e 0 @1279 ]
+"3651
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"3918
+[v _RB0 RB0 `VEb  1 e 0 @48 ]
+"4257
+[v _TRMT TRMT `VEb  1 e 0 @1217 ]
+"4293
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"358 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+[v _dpowers dpowers `DC[5]ui  1 s 10 dpowers ]
+"84 D:\Archivos\Desktop\dataACqCharlaSoft\holaMundo1.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"90
+[v main@texto texto `[20]uc  1 a 20 16 ]
+"89
+[v main@lecturaADC lecturaADC `ui  1 a 2 36 ]
+"105
+} 0
+"505 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+"545
+[v sprintf@val val `ui  1 a 2 8 ]
+"512
+[v sprintf@c c `uc  1 a 1 12 ]
+"521
+[v sprintf@prec prec `c  1 a 1 10 ]
+"507
+[v sprintf@ap ap `[1]*.4v  1 a 1 7 ]
+"525
+[v sprintf@flag flag `uc  1 a 1 6 ]
+"505
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+[v sprintf@f f `*.24DCuc  1 p 1 0 ]
+"550
+[v sprintf@sp sp `*.4uc  1 a 1 11 ]
+"1567
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 13 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 8 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 10 ]
+"25
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"55 D:\Archivos\Desktop\dataACqCharlaSoft\holaMundo1.X\main.c
+[v _enviarString enviarString `(v  1 e 1 0 ]
+{
+"56
+[v enviarString@i i `ui  1 a 2 3 ]
+"55
+[v enviarString@cadenaTexto cadenaTexto `*.26uc  1 p 2 1 ]
+"59
+} 0
+"49
+[v _enviarCaracterTx enviarCaracterTx `(v  1 e 1 0 ]
+{
+[v enviarCaracterTx@c c `uc  1 a 1 wreg ]
+[v enviarCaracterTx@c c `uc  1 a 1 wreg ]
+[v enviarCaracterTx@c c `uc  1 a 1 0 ]
+"52
+} 0
+"32
+[v _configurarUsart configurarUsart `(v  1 e 1 0 ]
+{
+"47
+} 0
+"62
+[v _configADC configADC `(v  1 e 1 0 ]
+{
+"80
+} 0
